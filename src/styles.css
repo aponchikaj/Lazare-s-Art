@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+@layer {
+    @font-face {
+      font-family: 'Artifika';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(./assets/font/Artifika/Artifika-Regular.ttf);
+    }
+}
